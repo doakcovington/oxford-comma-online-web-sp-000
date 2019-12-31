@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  #determine if array length is 2
+  #determine if array length is 1
   if array.length == 1
     "#{array[0]}"
   elsif array.length == 2
