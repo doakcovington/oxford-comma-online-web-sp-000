@@ -9,6 +9,7 @@ def oxford_comma(array)
     array.join(" and ")
   #else if array length is greater than or equal to 3
   elsif array.length >= 3
+    #sets the last element in the array equal the string "and" + the last element in the array
     array[-1] = "and #{array[-1]}"
     array.join(", ")
   end
