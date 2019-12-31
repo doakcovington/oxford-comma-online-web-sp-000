@@ -4,5 +4,5 @@ def oxford_comma(array)
   else
 
   end
-  return array
+
 end
